@@ -1,0 +1,21 @@
+# Build artifacts + Temporary data + Packages that can be downloaded later
+Builds/
+Library/
+Logs/
+obj/
+Temp/
+Packages/
+UserSettings/
+*.user
+*.zip
+*.dll
+*.obj
+*.meta
+
+# Assets are saved on the cloud, so we exclude them from the repo
+*.asset
+Assets/InputSystem_Actions.inputactions
+Assets/Scenes
+Assets/Settings
+Assets/Prototype/Sprites
+Assets/Prototype/Tiles
